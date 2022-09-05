@@ -1,8 +1,0 @@
-/Users/kikismine/Documents/Programming/OpenGL Programming/build/CMakeFiles/game.dir
-/Users/kikismine/Documents/Programming/OpenGL Programming/build/CMakeFiles/edit_cache.dir
-/Users/kikismine/Documents/Programming/OpenGL Programming/build/CMakeFiles/rebuild_cache.dir
-/Users/kikismine/Documents/Programming/OpenGL Programming/build/include/glfw/CMakeFiles/edit_cache.dir
-/Users/kikismine/Documents/Programming/OpenGL Programming/build/include/glfw/CMakeFiles/rebuild_cache.dir
-/Users/kikismine/Documents/Programming/OpenGL Programming/build/include/glfw/src/CMakeFiles/glfw.dir
-/Users/kikismine/Documents/Programming/OpenGL Programming/build/include/glfw/src/CMakeFiles/edit_cache.dir
-/Users/kikismine/Documents/Programming/OpenGL Programming/build/include/glfw/src/CMakeFiles/rebuild_cache.dir
