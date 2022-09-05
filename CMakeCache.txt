@@ -295,7 +295,7 @@ GLEW_STATIC_LIBRARY_DEBUG:FILEPATH=GLEW_STATIC_LIBRARY_DEBUG-NOTFOUND
 GLEW_STATIC_LIBRARY_RELEASE:FILEPATH=/opt/homebrew/lib/libGLEW.a
 
 //Value Computed by CMake
-GLFW_BINARY_DIR:STATIC=/Users/kikismine/Documents/Programming/OpenGL Programming/glfw
+GLFW_BINARY_DIR:STATIC=/Users/kikismine/Documents/Programming/OpenGL Programming/include/glfw
 
 //Build the GLFW documentation
 GLFW_BUILD_DOCS:BOOL=OFF
@@ -313,7 +313,7 @@ GLFW_INSTALL:BOOL=OFF
 GLFW_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-GLFW_SOURCE_DIR:STATIC=/Users/kikismine/Documents/Programming/OpenGL Programming/glfw
+GLFW_SOURCE_DIR:STATIC=/Users/kikismine/Documents/Programming/OpenGL Programming/include/glfw
 
 //Use OSMesa for offscreen context creation
 GLFW_USE_OSMESA:BOOL=OFF
@@ -324,26 +324,14 @@ GLFW_VULKAN_STATIC:BOOL=OFF
 //Value Computed by CMake
 Game_BINARY_DIR:STATIC=/Users/kikismine/Documents/Programming/OpenGL Programming
 
-//The directory containing a CMake configuration file for Game.
-Game_DIR:PATH=Game_DIR-NOTFOUND
-
 //Value Computed by CMake
 Game_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Game_SOURCE_DIR:STATIC=/Users/kikismine/Documents/Programming/OpenGL Programming
 
-//Value Computed by CMake
-OPENGL_BINARY_DIR:STATIC=/Users/kikismine/Documents/Programming/OpenGL Programming
-
 //Include for OpenGL on OS X
 OPENGL_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework
-
-//Value Computed by CMake
-OPENGL_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-OPENGL_SOURCE_DIR:STATIC=/Users/kikismine/Documents/Programming/OpenGL Programming
 
 //OpenGL library for OS X
 OPENGL_gl_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework

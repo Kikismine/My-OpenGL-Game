@@ -92,7 +92,7 @@ game_EXTERNAL_OBJECTS =
 
 game: CMakeFiles/game.dir/src/main.cpp.o
 game: CMakeFiles/game.dir/build.make
-game: glfw/src/libglfw3.a
+game: include/glfw/src/libglfw3.a
 game: /opt/homebrew/lib/libGLEW.dylib
 game: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd
 game: CMakeFiles/game.dir/link.txt

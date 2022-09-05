@@ -139,7 +139,7 @@ glfw: cmake_check_build_system
 
 # fast build rule for target.
 glfw/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/src/CMakeFiles/glfw.dir/build.make glfw/src/CMakeFiles/glfw.dir/build
+	$(MAKE) $(MAKESILENT) -f include/glfw/src/CMakeFiles/glfw.dir/build.make include/glfw/src/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
 
 src/main.o: src/main.cpp.o

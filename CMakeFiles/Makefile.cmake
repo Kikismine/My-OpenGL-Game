@@ -11,11 +11,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.24.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.1/CMakeSystem.cmake"
   "CMakeLists.txt"
-  "glfw/CMakeLists.txt"
-  "glfw/src/CMakeLists.txt"
-  "glfw/src/glfw3.pc.in"
-  "glfw/src/glfw3Config.cmake.in"
-  "glfw/src/glfw_config.h.in"
+  "include/glfw/CMakeLists.txt"
+  "include/glfw/src/CMakeLists.txt"
+  "include/glfw/src/glfw3.pc.in"
+  "include/glfw/src/glfw3Config.cmake.in"
+  "include/glfw/src/glfw_config.h.in"
   "/opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CMakeCInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.24.1/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -63,16 +63,16 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "glfw/src/glfw3Config.cmake"
-  "glfw/src/glfw3ConfigVersion.cmake"
-  "glfw/src/glfw3.pc"
-  "glfw/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "glfw/src/glfw_config.h"
-  "glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "include/glfw/src/glfw3Config.cmake"
+  "include/glfw/src/glfw3ConfigVersion.cmake"
+  "include/glfw/src/glfw3.pc"
+  "include/glfw/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "include/glfw/src/glfw_config.h"
+  "include/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/game.dir/DependInfo.cmake"
-  "glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "include/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )

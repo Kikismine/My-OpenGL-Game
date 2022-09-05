@@ -3,14 +3,14 @@ cmake_minimum_required( VERSION 3.1 )
 project( Game )
 
 find_package( OpenGL REQUIRED )
-find_package(GLEW 2.1 REQUIRED)
+find_package( GLEW 2.1 REQUIRED )
 
 include_directories( ${OPENGL_INCLUDE_DIRS} )
 
 set( GLFW_BUILD_DOCS OFF CACHE BOOL  "GLFW lib only" )
 set( GLFW_INSTALL OFF CACHE BOOL  "GLFW lib only" )
 
-add_subdirectory( glfw )
+add_subdirectory( include/glfw )
 
 if( MSVC )
     SET( CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /ENTRY:mainCRTStartup" )
